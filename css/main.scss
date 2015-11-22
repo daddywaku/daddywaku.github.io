@@ -1,0 +1,201 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$header-font-stack: 'Droid Serif', serif;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;
+
+
+// custom scss
+
+* { padding: 0; margin:0;}
+
+
+
+/* Sticky footer */
+// http://stackoverflow.com/questions/19204902/sticky-responsive-footer-jekyll-bootstrap
+
+// $footerHeight: 112px;
+
+// //Page full height
+// html, body {
+//     height: 100%;
+// }
+
+// .page-content {
+//     min-height: 100%;
+//     height: auto !important;
+//     height: 100%;
+//     overflow: auto;
+
+//     // Negative indent footer by it's height
+//     // margin-bottom: -($footerHeight);
+//     margin-bottom: -174px;
+
+//     margin-left: 0;
+//     margin-right: 0;
+//     margin-top: 0;
+// }
+
+// //footer fixed height
+// .footer-push,
+// .site-footer {
+//     height: $footerHeight;
+//     max-height: $footerHeight;
+//     overflow: hidden;
+// }
+.site-header, .site-footer { background: rgba(233, 228, 209, 1) }
+.site-header { height: 112px;}
+.page-content { padding: 0 0; }
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 112px; //bottom = footer height
+}
+.site-footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 112px;
+    width: 100%;
+}
+
+
+/* ---------------- */
+
+h1 {
+	margin-top: 30px;
+	color: #e9e4d1;
+	font-family: $header-font-stack;
+}
+
+h2 {
+	font: 24px 'Enriqueta', serif;
+	color: #996944;
+}
+
+.frontpage-block {
+	position: relative;
+	font: bold 48px "Times New Roman", sans-serif;
+	margin-top: 100px;
+
+		.frontpage-image {}
+		.frontpage-subtitle {
+			position: absolute;
+			top: 150px;
+			right: 30px;
+			color: #e9e4d1;
+			 text-shadow: 0px 4px 5px #000;
+
+			span {
+				display: block;
+				position: absolute;
+				right: 11px;
+				text-align: right;
+				top: 43px;
+				color: #d6b15c;
+				font-size: 24px;
+			}
+
+		}
+
+}
+
+.contact-form {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+
+	// width: 410px;
+	float: right;
+	position: relative;
+
+	input, textarea {
+		display: block;
+		border: 1px solid #e9e4d1;
+	}
+	input { 
+		padding: 10px 5px;
+		margin: 5px;
+	} 
+	textarea {
+		padding: 10px 5px;
+		margin: 5px;
+		height: 100px;
+		width: 200px;
+	}
+	.input-left { float: left; width: 186px;}
+	.input-right { float: right;}
+	button#submit {
+		position: absolute;
+		right: 10px;
+		bottom:-30px;
+		border: 1px solid #e9e4d1;
+		color: #fff;
+		background: #e9e4d1;
+		font-size: 16px;
+		padding: 5px;
+	}
+	button#submit:hover {
+		background-color: transparent;
+		color: #444;
+	}
+}
+
+.web-by {
+	font-size: 75%;
+}

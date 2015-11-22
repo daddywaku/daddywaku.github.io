@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+  <style>
+  * {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-content {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px; 
+}
+.page-content:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-content:after {
+  height: 142px; 
+}
+.site-footer {
+  background: orange;
+}
+</style>
+
+
+  <body>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+    {{ content }}
+      </div>
+    </div>
+
+
+<footer class="site-footer">
+  footer
+</footer>
+
+  </body>
+
+</html>
