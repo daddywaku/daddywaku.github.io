@@ -4,6 +4,8 @@ title: Videos
 permalink: /videos/
 ---
 
+<!-- https://developers.google.com/youtube/player_parameters -->
+
 <div class="video-container">
 	<iframe style="inline-block" width="200" height="113" src="https://www.youtube.com/embed/o2sErvPLhTE?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>
 	<iframe style="inline-block" width="200" height="113" src="https://www.youtube.com/embed/-9E-J2FuQvk?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>
