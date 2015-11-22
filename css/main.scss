@@ -206,3 +206,20 @@ h2 {
 	margin-right: 5px;
 	}
 }
+
+
+
+// elementTransitions
+    .et-wrapper {
+      width: 390px;
+      height: 200px;
+    }
+    .et-page:nth-child(1) {
+      background: red;
+    }
+    .et-page:nth-child(2) {
+      background: blue;
+    }
+    .et-page:nth-child(3) {
+      background: purple;
+    }
