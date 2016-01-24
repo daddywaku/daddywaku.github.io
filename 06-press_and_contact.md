@@ -19,7 +19,7 @@ e-mail: info@daddywaku.com
 
 ## Press
 
-#### Catherine PIZZOLL  
+#### Catherine PIZZOL
 e-mail: catherine.pizzol@gmail.com  
 e-mail: cp@daddywaku.com
 
