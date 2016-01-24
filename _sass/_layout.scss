@@ -27,6 +27,12 @@
 .site-nav {
     float: right;
     line-height: 56px;
+    z-index: 3;
+
+    // active menu link
+    .active {
+        border-bottom: 2px solid $grey-color-dark;
+    }
 
     .menu-icon {
         display: none;
@@ -68,6 +74,11 @@
                     fill: $grey-color-dark;
                 }
             }
+        }
+
+        // active menu link in mobile menu
+        .active {
+            border: none;
         }
 
         .trigger {

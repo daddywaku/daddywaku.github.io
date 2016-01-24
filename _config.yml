@@ -20,4 +20,16 @@ markdown: kramdown
 
 footer-heading: The Official Website
 
-
+navigation:
+  - title: Bio
+    url: /bio/
+  - title: Photos
+    url: /photos/
+  - title: Videos
+    url: /videos/
+  - title: Music
+    url: /music/
+  - title: Tour
+    url: /tour/
+  - title: Press & Contact
+    url: /press_and_contact/
