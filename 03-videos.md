@@ -10,7 +10,7 @@ permalink: /videos/
 <div class="video-container">
 
 <h2>Daddy Waku</h2>
-
+	<iframe style="inline-block" width="200" height="113" src="https://www.youtube.com/embed/fwXRF5yCje0?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>
 	<iframe style="inline-block" width="200" height="113" src="https://www.youtube.com/embed/o2sErvPLhTE?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>
 	<iframe style="inline-block" width="200" height="113" src="https://www.youtube.com/embed/-9E-J2FuQvk?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>
 	<iframe style="inline-block" width="200" height="113" src="https://www.youtube.com/embed/a6aGmNigAq8?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>
