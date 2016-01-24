@@ -22,3 +22,5 @@ En 2004 il monte avec trois amis de longue date un projet new soul du nom de SOU
 2012 Toujours animé par sa passion Daddy a encore soif de créer, d'apprendre , de collaborer accompagné de ses amis musiciens , il rend hommage à son idole Donny Hathaway Live Tribute accompagne encore aux choeurs des artistes locaux (Mariana Tootsie, BaÏ Kamara….)
 
 2014-2015 ALBUM SOLO EN PREPARATION - Enfin et après avoir collaborer avec beaucoup d’artiste , Daddy fait enfin le pas et réalise actuellement son première album solo avec son ami de longue date Fabio Volante.
+
+<br /><br /><br />
